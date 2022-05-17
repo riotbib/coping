@@ -84,6 +84,7 @@ pre.noise {
 
 body.letter {
   background: linear-gradient(90deg, rgba(132, 132, 132, 1) 0%, rgba(212, 212, 212, 1) 100%);
+  font-family: sans-serif;
 }
 
 body.letter div {
@@ -106,6 +107,10 @@ body.letter header h1 {
 
 body.letter section {
   line-height: 2;
+}
+
+body.letter section a {
+  text-decoration: none;
 }
 
 @keyframes blink {
